@@ -23,4 +23,4 @@ find . -type f -name "* *" | while read file; do mv "$file" ${file// /_}; done
 
 # Find uppercase
 find . -name "*.*[A-Z]*" ! -name "*.*[^A-Z]*"
-```
+```.
